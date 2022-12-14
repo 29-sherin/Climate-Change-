@@ -54,7 +54,6 @@ df.reset_index(0,inplace=True)
 df.reset_index(0,inplace=True)
 # generating a correlation table
 df_v=df[["metric tons of CO2 per capita","Energy use (kg of oil equivalent) per capita"]].corr()
-
 # plotting the correlation map
 plt.imshow(df_v, cmap='hot', interpolation='nearest')
 
