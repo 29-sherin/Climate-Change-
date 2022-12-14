@@ -6,7 +6,6 @@ import numpy as np
 ind1='EN.ATM.CO2E.PC' # metric tons of CO2 per capita
 ind2='EG.USE.PCAP.KG.OE' # Energy use (kg of oil equivalent) per capita
 
-
 def get_df(file):
     """Enter a csv file or a csv file path containing countries as the headings line"""
     mn=pd.read_csv(file)
